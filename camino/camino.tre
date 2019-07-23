@@ -1,0 +1,34 @@
+ÀÄcamino
+   ÃÄMAIN  0/106  Ram=1
+   ³  ÃÄ??0??
+   ³  ÃÄINIT_MICRO  0/29  Ram=0
+   ³  ÃÄPRE_SET  0/26  Ram=0
+   ³  ³  ÃÄLEGGI_DATI  0/24  Ram=3
+   ³  ³  ÀÄSALVA_DATI  0/44  Ram=2
+   ³  ÃÄFILTRO_PULSANTI  0/41  Ram=1
+   ³  ÃÄTASTIERA  0/111  Ram=1
+   ³  ÃÄGESTIONE_DISPLAY  0/37  Ram=1
+   ³  ³  ÃÄ@DIV88  0/21  Ram=3
+   ³  ³  ÃÄ@DIV88  0/21  Ram=3
+   ³  ³  ÃÄSET_DISPLAY  0/55  Ram=1
+   ³  ³  ³  ÀÄ@goto10170  0/20  Ram=0
+   ³  ³  ÀÄSET_DISPLAY  0/55  Ram=1
+   ³  ³     ÀÄ@goto10170  0/20  Ram=0
+   ³  ÃÄ@MUL88  0/37  Ram=2
+   ³  ÃÄGESTIONE_DISPLAY  0/37  Ram=1
+   ³  ³  ÃÄ@DIV88  0/21  Ram=3
+   ³  ³  ÃÄ@DIV88  0/21  Ram=3
+   ³  ³  ÃÄSET_DISPLAY  0/55  Ram=1
+   ³  ³  ³  ÀÄ@goto10170  0/20  Ram=0
+   ³  ³  ÀÄSET_DISPLAY  0/55  Ram=1
+   ³  ³     ÀÄ@goto10170  0/20  Ram=0
+   ³  ÃÄGESTIONE_DISPLAY  0/37  Ram=1
+   ³  ³  ÃÄ@DIV88  0/21  Ram=3
+   ³  ³  ÃÄ@DIV88  0/21  Ram=3
+   ³  ³  ÃÄSET_DISPLAY  0/55  Ram=1
+   ³  ³  ³  ÀÄ@goto10170  0/20  Ram=0
+   ³  ³  ÀÄSET_DISPLAY  0/55  Ram=1
+   ³  ³     ÀÄ@goto10170  0/20  Ram=0
+   ³  ÀÄSALVA_DATI  0/44  Ram=2
+   ÃÄisr_rda  0/3  Ram=0
+   ÀÄisr_timer0  0/38  Ram=0

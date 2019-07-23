@@ -1,0 +1,56 @@
+
+ROM used: 656 (32%)
+          656 (32%) including unused fragments
+
+          1 Average locations per line
+          3 Average locations per statement
+
+RAM used: 35 (27%) at main() level
+          39 (30%) worst case
+
+Stack used: 4 worst case (out of 7 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  492   239 100  camino.c
+  234     0   0  ..\..\..\..\PROGRA~1\PICC\devices\16F870.h
+----- -----
+  726   239 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0      3   0   0     5  1.0  isr_rda
+0     38   6   0   517  4.3  isr_timer0
+0    106  16   1  1058  9.2  MAIN
+0     37   6   2             @MUL88
+0     29   4   0   243  2.3  INIT_MICRO
+0     37   6   1   409  4.2  GESTIONE_DISPLAY
+0     21   3   3             @DIV88
+0     55   8   1   996  3.8  SET_DISPLAY
+0     20   3   0             @goto10170
+0     41   6   1   624  4.8  FILTRO_PULSANTI
+0    111  17   1  1865  7.4  TASTIERA
+0     44   7   2   138  3.9  SALVA_DATI
+0     24   4   3   136  3.5  LEGGI_DATI
+0     26   4   0   292  3.7  PRE_SET
+
+Program metrics:
+    Functions               11
+    Statements              239
+    Comments                125
+    Volume (V)              9484
+    Difficilty (D)          48.3
+    Effort to implement (E) 457859
+    Time to implement (T)   7 hours, 4 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   65
+    Maintainability (MI)    41
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0003F    60  0  
+00040-007FF   592  1392  
+
+
+

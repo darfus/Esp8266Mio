@@ -1,0 +1,126 @@
+000     INDF
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+004     FSR
+005     PORTA
+005.1   LED_1
+005.2   LED_2
+005.5   SINC
+006     PORTB
+007     PORTC
+007.3   TRIAC
+007.4   DISP_UNITA
+007.5   DISP_DECINE
+008     PSP_DATA
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+018     RCSTA
+019     TXREG
+01A     RCREG
+01E     ADRESH
+01F     ADCON0
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @SCRATCH
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C     @INTERRUPT_AREA
+02D     @INTERRUPT_AREA
+02E.0   time1
+02E.1   time2
+02E.2   time3
+02E.3   time4
+02E.4   SW_DISP
+02E.5   premuto
+02E.6   era_premuto
+02E.7   premuto_f
+02F     tempo2
+030     tempo3
+031     tempo4
+032     TIME_SALVATAGGIO
+033     UNITA
+034     DECINE
+035     VIS
+036     TIME_VIS
+037     temporaneo
+038     filtro
+039     ripetizione
+03A     tasti
+03B     CONT_SINC
+03C     TIME_INNESCO
+03D-041 DATI_MEMO
+042     LEGGI_DATI.n_memo
+042     SALVA_DATI.n_memo
+042     @MUL88.P1
+042     MAIN.@SCRATCH
+042     FILTRO_PULSANTI.@SCRATCH
+042     TASTIERA.@SCRATCH
+043     GESTIONE_DISPLAY.var
+043     @MUL88.P1
+043     SALVA_DATI.@SCRATCH
+043     LEGGI_DATI.@SCRATCH
+044     SET_DISPLAY.numero
+044     @DIV88.P1
+044     LEGGI_DATI.@SCRATCH
+045     @DIV88.P1
+046     @DIV88.@SCRATCH
+098     TXSTA
+099     SPBRG
+09E     ADRESL
+09F     ADCON1
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+0040  isr_rda
+0043  isr_timer0
+0226  MAIN
+0201  @MUL88
+0069  INIT_MICRO
+01DC  GESTIONE_DISPLAY
+017C  @DIV88
+0191  SET_DISPLAY
+01C8  @goto10170
+00E4  FILTRO_PULSANTI
+010D  TASTIERA
+009E  SALVA_DATI
+0086  LEGGI_DATI
+00CA  PRE_SET
+0226  @cinit
+
+Project Directory:
+    C:\Documents and Settings\berardo_marco\Desktop\camino\
+
+Project Files:
+    camino.c
+    ..\..\..\..\PROGRA~1\PICC\devices\16F870.h
+
+Units:
+    camino.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F870
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      camino.err
+    Ext Symbols: camino.esym
+    INHX8:       camino.hex
+    Symbols:     camino.sym
+    List:        camino.lst
+    Debug/COFF:  camino.cof
+    Project:     camino.PJT
+    Call Tree:   camino.tre
+    Statistics:  camino.sta
